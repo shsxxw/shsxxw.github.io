@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="上海树下小屋网络科技有限公司 - 移动出行数据 · 位置智能 · 定制化数字化解决方案" />
+
+    <title>上海树下小屋网络科技有限公司</title>
+
+    <!-- Webfont：中文用 Noto Sans SC，英文用 Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-inner">
+            <a class="brand" href="#hero" aria-label="上海树下小屋网络科技有限公司">
+                <!-- 简洁占位 Logo：一棵树 + 小屋 -->
+                <span class="brand-icon" aria-hidden="true">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" role="img">
+                        <!-- 树冠 -->
+                        <circle cx="11" cy="10" r="6" fill="url(#gradTree)" />
+                        <!-- 树干 -->
+                        <rect x="9.5" y="14" width="3" height="6" rx="1" fill="#94ffcf" />
+                        <!-- 小屋 -->
+                        <path d="M20 15 L26 19 L26 27 L14 27 L14 19 Z" fill="#1e293b" stroke="#94ffcf" stroke-width="1.5" />
+                        <path d="M14 19 L20 15 L26 19" fill="#1e293b" stroke="#94ffcf" stroke-width="1.5" />
+                        <rect x="18" y="21" width="4" height="6" fill="#0f172a" stroke="#94ffcf" stroke-width="1" rx="0.5" />
+                        <defs>
+                            <radialGradient id="gradTree" cx="0" cy="0" r="1"
+                                gradientTransform="translate(9 8) rotate(45) scale(10)"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#34d399"/>
+                                <stop offset="1" stop-color="#065f46"/>
+                            </radialGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <span class="cn">上海树下小屋网络科技有限公司</span>
+                    <span class="en">TreeHouse Tech · Shanghai</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" aria-label="展开菜单" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link">首页</a>
+                <a href="#solutions" class="nav-link">解决方案</a>
+                <a href="#about" class="nav-link">关于我们</a>
+                <a href="#contact" class="nav-link cta-nav">联系我们</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / 首页主视觉 -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container hero-inner">
+            <div class="hero-copy reveal">
+                <h1 class="hero-title">
+                    让出行轨迹<span class="accent">有意义</span>  
+                </h1>
+                <p class="hero-desc">
+                    上海树下小屋网络科技有限公司专注于
+                    <strong>移动端定位采集</strong>、
+                    <strong>智能出行分析</strong>、
+                    <strong>可视化数据洞察</strong>。
+                    我们将真实世界的移动行为，转化成可读、可用、可增长的商业价值。
+                </p>
+
+                <div class="hero-cta-row">
+                    <a class="btn-primary" href="#contact">获取合作方案</a>
+                    <a class="btn-ghost" href="#solutions">查看业务能力 →</a>
+                </div>
+
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <span class="meta-num">24/7</span>
+                        <span class="meta-label">连续定位采集引擎</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-num">毫秒级</span>
+                        <span class="meta-label">轨迹时间戳精度</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-num">&lt;1%</span>
+                        <span class="meta-label">丢点率优化目标</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-card reveal">
+                <div class="mini-card">
+                    <p class="mini-head">行程概览 · 示例</p>
+                    <p class="mini-main">上海 → 苏州</p>
+                    <ul class="mini-stats">
+                        <li><span>总里程</span><b>82.4 km</b></li>
+                        <li><span>最高速度</span><b>103 km/h</b></li>
+                        <li><span>停留点</span><b>4 处</b></li>
+                        <li><span>步数</span><b>12,538</b></li>
+                    </ul>
+                    <p class="mini-foot">* 示例演示界面，仅用于展示产品能力</p>
+                </div>
+                <div class="glass-note">
+                    实时轨迹 → 场景洞察  
+                    <span class="dot"></span>  
+                    私有化存储 / 合规采集
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解决方案 / 产品能力 -->
+    <section id="solutions" class="section solutions-section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">我们的核心能力</h2>
+                <p class="section-desc">
+                    我们不仅“记录位置”，我们抽取价值。围绕定位数据，提供完整的“采集 → 分析 → 呈现”闭环。
+                </p>
+            </div>
+
+            <div class="solutions-grid">
+                <!-- Card 1 -->
+                <div class="sol-card reveal">
+                    <div class="sol-icon">📍</div>
+                    <h3 class="sol-title">移动端轨迹采集引擎</h3>
+                    <p class="sol-desc">
+                        超低功耗的后台定位采集方案，针对 iOS / Android
+                        深度优化，包含去噪、精度评估、无效点过滤策略。
+                    </p>
+                    <ul class="sol-list">
+                        <li>后台持续运行 / 异常恢复</li>
+                        <li>室内外场景融合</li>
+                        <li>高速/步行模式自动识别</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="sol-card reveal">
+                    <div class="sol-icon">🚆</div>
+                    <h3 class="sol-title">出行模式智能识别</h3>
+                    <p class="sol-desc">
+                        基于速度曲线、加速度特征、运动传感器数据，自动判断
+                        “步行 / 驾车 / 高铁 / 飞机”等出行方式，形成可检索的
+                        行程片段。
+                    </p>
+                    <ul class="sol-list">
+                        <li>行程分段 / 里程统计</li>
+                        <li>停留点聚类与常驻地识别</li>
+                        <li>行为画像建模</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="sol-card reveal">
+                    <div class="sol-icon">📊</div>
+                    <h3 class="sol-title">可视化与企业集成</h3>
+                    <p class="sol-desc">
+                        我们帮助企业把位置数据直接变成看得懂的业务指标：
+                        仪表盘、运营日报、合规导出、API 接口对接现有系统。
+                    </p>
+                    <ul class="sol-list">
+                        <li>管理驾驶舱 Dashboard</li>
+                        <li>地图轨迹回放 / 热力区可视化</li>
+                        <li>私有部署 / 数据主权保障</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section about-section">
+        <div class="container about-inner">
+            <div class="about-copy reveal">
+                <h2 class="section-title">关于我们</h2>
+                <p class="section-desc">
+                    上海树下小屋网络科技有限公司是一家专注于
+                    <strong>位置智能</strong> 与 <strong>移动场景计算</strong> 的技术型公司。
+                    我们相信：数据应该服务于个人体验和企业效率，而不是只停留在日志里。
+                </p>
+                <p class="section-desc">
+                    我们能从“原始轨迹点”直接生成“业务线可读指标”，
+                    让非技术团队也能看懂真实世界里发生了什么。
+                </p>
+
+                <div class="about-highlights">
+                    <div class="hl-box">
+                        <div class="hl-num">100%</div>
+                        <div class="hl-text">自主研发核心采集/分析引擎</div>
+                    </div>
+                    <div class="hl-box">
+                        <div class="hl-num">隐私优先</div>
+                        <div class="hl-text">支持本地/私有化落地，减少外部依赖</div>
+                    </div>
+                    <div class="hl-box">
+                        <div class="hl-num">可定制</div>
+                        <div class="hl-text">按行业场景深度定制，而不是卖标准模版</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card reveal">
+                <div class="about-glass">
+                    <p class="about-mini-title">我们做什么？</p>
+                    <ul class="about-list">
+                        <li>轨迹采集 SDK / App 定制开发</li>
+                        <li>轨迹清洗、分段、出行模式识别</li>
+                        <li>高价值停留点（常驻地 / 门店 / 场站）提取</li>
+                        <li>管理后台 / 报表可视化 / API 对接</li>
+                    </ul>
+                    <p class="about-mini-note">
+                        合作模式灵活：技术外包、联合研发、SaaS 授权、私有部署均可探讨。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section contact-section">
+        <div class="container contact-inner">
+            <div class="contact-left reveal">
+                <h2 class="section-title">联系与合作</h2>
+                <p class="section-desc">
+                    想把“位置数据”真正变成“业务资产”？告诉我们你的场景。
+                </p>
+
+                <div class="contact-card">
+                    <div class="contact-row">
+                        <div class="contact-label">公司名称</div>
+                        <div class="contact-value">上海树下小屋网络科技有限公司</div>
+                    </div>
+
+                    <div class="contact-row">
+                        <div class="contact-label">商务洽谈</div>
+                        <div class="contact-value">
+                            <a class="linkish" href="mailto:biz@example.com">biz@example.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-row">
+                        <div class="contact-label">技术对接</div>
+                        <div class="contact-value">
+                            <a class="linkish" href="mailto:tech@example.com">tech@example.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-row">
+                        <div class="contact-label">所在城市</div>
+                        <div class="contact-value">上海 · SHANGHAI</div>
+                    </div>
+                </div>
+
+                <p class="contact-hint">
+                    请在邮件中简单描述你的业务场景（例如“日常行程记录 App”“车辆调度平台”“人员轨迹合规留痕”），我们会给出最合适的合作模式。
+                </p>
+            </div>
+
+            <div class="contact-right reveal">
+                <form class="contact-form" action="mailto:biz@example.com" method="post" enctype="text/plain">
+                    <div class="form-field">
+                        <label for="company">公司 / 项目名称</label>
+                        <input id="company" name="公司" type="text" placeholder="例如：XX出行 / 内部稽核平台" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">您的邮箱</label>
+                        <input id="email" name="邮箱" type="email" placeholder="you@company.com" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="msg">需求简介</label>
+                        <textarea id="msg" name="需求" rows="4" placeholder="想解决什么问题？我们要怎么帮你？" required></textarea>
+                    </div>
+
+                    <button class="btn-primary form-submit" type="submit">
+                        发送需求
+                    </button>
+
+                    <p class="form-tip">此表单会尝试用本地邮件客户端发送；如未弹出邮件，请直接写信到 biz@example.com</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <div class="footer-brand">上海树下小屋网络科技有限公司</div>
+                <div class="footer-slogan">位置数据 · 出行智能 · 可视化洞察</div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="#hero">首页</a>
+                    <a href="#solutions">解决方案</a>
+                    <a href="#about">关于我们</a>
+                    <a href="#contact">联系我们</a>
+                </div>
+                <div class="footer-legal">
+                    <span>© <span id="year"></span> 上海树下小屋网络科技有限公司</span>
+                    <span class="icp">沪ICP备XXXXXXX号（示例）</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <noscript>
+        本站需要 JavaScript 以获得完整交互体验（导航菜单、滚动动效等）。
+    </noscript>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
